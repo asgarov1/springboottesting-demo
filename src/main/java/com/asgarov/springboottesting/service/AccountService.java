@@ -6,4 +6,6 @@ import java.math.BigDecimal;
 
 public interface AccountService {
     void deposit(Account account, BigDecimal amount);
+
+    Account findById(String accountId);
 }
